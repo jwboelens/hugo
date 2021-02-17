@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel=icon href=data:,>
+	<title>{{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	{{ with .OutputFormats.Get "RSS" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+	{{- end }}
+<style type="text/css">
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+html { font-family: 'Inter var', sans-serif; }
+}
+html {
+	font-size: 15px;
+	line-height: 1.5;
+	-moz-osx-font-smoothing: grayscale;
+	color: #121212;
+	background: #f4f4f4;
+}
+body {
+	max-width: 60em;
+	margin: 0 auto;
+	padding: 2.5em 1.5em;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 4em;
+	font-size: 16px;
+}
+nav a {
+	border: none;
+}
+nav img {
+	width: 16px;
+	margin-left: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	font-weight: 600;
+	margin: 0 0 1rem 0;
+	letter-spacing: -0.02em;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+b, strong {
+	font-weight: 600;
+}
+hr {
+	margin: 2rem 0;
+	max-width: 3rem;
+	border: none;
+	border-top: 1px solid rgba(13,13,13,.2);
+}
+.logo {
+	text-decoration: none;
+	color: inherit;
+	border-bottom: none;
+	margin-bottom: 4px;
+	letter-spacing: -0.02em;
+}
+postlink {
+	margin: 0 0 1em;
+	display: block;
+}
+postlink a {
+	color: inherit;
+	border: none;
+}
+date {
+	display: block;
+	color: #aaa;
+	font-size: 11px;
+}
+pre {
+    background: #fff;
+    padding: 3%;
+    border-radius: 5px;
+    word-wrap: break-word;
+    white-space: pre-line;
+    font-size: 13px;
+    margin: 1.5em 0;
+    border: 1px solid #ececec;
+    box-shadow: 0px 4px 10px #ede9e9;
+}
+
+/* Photos */
+.photos {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	list-style: none;
+	grid-column-gap: 1.5rem;
+	grid-row-gap: 2rem;
+	padding: 0;
+}
+.photos img {
+	width: 100%;
+	margin-bottom: 0;
+}
+.photos li {
+	align-self: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+	<a class="logo" href="{{ .Site.BaseURL }}">ツ</a>
+	<nav>
+		<a href="/photos"><img src="/images/image-light.png"></a>
+		<a href="/movies"><img src="/images/monitor-play-light.png"></a>
+	</nav>
+</header>
+
+<ul class="photos">
+	{{ range .Data.Pages.GroupByDate "2006" }}
+		{{ range .Pages }}
+			<li>
+				<a href="{{ .Permalink }}"><img src="{{ .Params.thumb }}?width=400"></a>
+			</li>
+		{{ end }}
+	{{ end }}
+</ul>
+
+{{ partial "footer" . }}
+
+</body>
+</html>
