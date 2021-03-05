@@ -1,7 +1,7 @@
 {{define "main"}} 
 
 <movies>
-{{ range .Pages.ByTitle  }}
+{{ range sort .Params.artist }}
   <li>
     {{.Params.artist}} - {{.Title}}
   </li>
