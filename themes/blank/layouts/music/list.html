@@ -1,13 +1,11 @@
 {{define "main"}} 
-{{ range .Data.Pages.ByTitle }}
 
 <movies>
-{{ range .Pages }}
+{{ range .Pages.ByTitle  }}
   <li>
     {{.Params.artist}} - {{.Title}}
   </li>
 {{ end }}
 </movies>
 
-{{ end }}
 {{ end }}
