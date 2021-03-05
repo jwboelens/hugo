@@ -3,7 +3,7 @@
 <movies>
 {{ range .Pages }}
   <li>
-    {{.Title}}<date>{{.Params.artist}}</date>
+    {{.Params.artist}} - {{.Title}}
   </li>
 {{ end }}
 </movies>
