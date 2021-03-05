@@ -8,4 +8,12 @@
 {{ end }}
 </movies>
 
+<ul class="covers">
+  {{ range .Pages }}
+    <li>
+      <img src="https://superspeed.b-cdn.net{{ .Params.cover }}?width=400&aspect_ratio=1:1">
+    </li>
+  {{ end }}
+</ul>
+
 {{ end }}
