@@ -1,4 +1,5 @@
 {{define "main"}} 
+{{ range .Data.Pages.ByTitle }}
 
 <movies>
 {{ range .Pages }}
@@ -8,4 +9,5 @@
 {{ end }}
 </movies>
 
+{{ end }}
 {{ end }}
