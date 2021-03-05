@@ -4,7 +4,7 @@
   {{ range (.Pages.ByParam "artist") }}
     <li>
       <img src="https://superspeed.b-cdn.net{{ .Params.cover }}?width=400&aspect_ratio=1:1">
-      {{.Params.artist}} - {{.Title}}
+      <b>{{.Params.artist}}</b> - {{.Title}}
     </li>
   {{ end }}
 </ul>
