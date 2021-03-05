@@ -1,17 +1,10 @@
 {{define "main"}} 
 
-<movies>
-{{ range (.Pages.ByParam "artist") }}
-  <li>
-    {{.Params.artist}} - {{.Title}}
-  </li>
-{{ end }}
-</movies>
-
 <ul class="covers">
-  {{ range .Pages }}
+  {{ range (.Pages.ByParam "artist") }}
     <li>
       <img src="https://superspeed.b-cdn.net{{ .Params.cover }}?width=400&aspect_ratio=1:1">
+      {{.Params.artist}} - {{.Title}}
     </li>
   {{ end }}
 </ul>
