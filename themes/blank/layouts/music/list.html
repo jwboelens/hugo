@@ -1,0 +1,11 @@
+{{define "main"}} 
+
+<movies>
+{{ range .Pages }}
+  <li>
+    {{.Title}}<date>{{.artist}}</date>
+  </li>
+{{ end }}
+</movies>
+
+{{ end }}
