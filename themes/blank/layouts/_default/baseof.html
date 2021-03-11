@@ -11,11 +11,8 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 <style type="text/css">
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700");
 html {
-	font-family: "Source Code Pro", monospace;
-	font-size: 13px;
-	line-height: 1.5;
+	font: 16px/1.6em monospace;
 	-moz-osx-font-smoothing: grayscale;
 	color: #000;
 }
