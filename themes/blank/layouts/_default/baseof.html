@@ -120,7 +120,8 @@ sub {
 </head>
 <body>
 	{{ partial "header" . }}
+	<div id="content">
 	{{ block "main" . }}{{ end }}
-	{{ partial "footer" . }}
+	</div>
 </body>
 </html>
