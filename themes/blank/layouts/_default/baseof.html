@@ -11,132 +11,111 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 <style type="text/css">
-html {
-	font: 16px/1.6em monospace;
-	-moz-osx-font-smoothing: grayscale;
-	color: #000;
-}
 body {
-	max-width: 30em;
-	margin: 0 auto;
-	padding: 2.5em 1.5em;
-}
-header {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 0 4em;
-}
-nav a {
-	border: none;
-	color: #aaa;
-	margin-left: 1em;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-size: inherit;
-	font-weight: 600;
-	margin: 0 0 1rem 0;
-	letter-spacing: -0.02em;
-}
-a {
-	text-decoration: none;
-	color: inherit;
-	border-bottom: 1px solid #aaa;
-}
-b, strong {
-	font-weight: 600;
-}
-hr {
-	margin: 2rem 0;
-	max-width: 3rem;
-	border: none;
-	border-top: 1px solid rgba(13,13,13,.2);
-}
-.logo {
-	text-decoration: none;
-	color: inherit;
-	border-bottom: none;
-	margin-bottom: 4px;
-	letter-spacing: -0.02em;
-}
-notes {
-	margin: 0 0 4em;
-	display: block;
-}
-postlink {
-	margin: 0 0 1em;
-	display: block;
-}
-postlink a {
-	color: inherit;
-	border: none;
-}
-date {
-	display: block;
-	color: #aaa;
-	font-size: 12px;
-}
-date a {
-	border: none;
-}
-pre {
-	padding: 3%;
-	border-radius: 5px;
-	word-wrap: break-word;
-	white-space: pre-line;
-	font-size: 13px;
-	margin: 1.5em 0;
-	box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  font-family: Helvetica;
+  font-size: 13px;
 }
 
-/* Movies */
-movies li {
-	list-style: none;
-	margin: 0 0 .5em;
-}
-movies h3 {
-	font-size: inherit;
-	font-weight: 600;
-	margin: 2em 0 1em 0;
-	letter-spacing: -0.02em;
-}
-.star {
-	width: 13px;
-	height: 12px;
-	display: inline-block;
-	background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuMzA5IDkuMjJMMi40MDkgMTJsMS40NC00LjU2N0wwIDQuNTgzbDQuNzg4LS4wNDJMNi4zMDggMCA3LjgzIDQuNTRsNC43ODkuMDQ0LTMuODUgMi44NDlMMTAuMjA5IDEyeiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
+#menu {
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: right;
+  width: 150px;
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
 }
 
-/* Photos */
-.photos {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	list-style: none;
-	grid-column-gap: 1.5rem;
-	grid-row-gap: 2rem;
-	padding: 0;
-}
-.photos img {
-	width: 100%;
-	margin-bottom: 0;
+#menu .title {
 }
 
-/* Covers */
-.covers {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	list-style: none;
-	padding: 0;
-	grid-gap: 15px 10px;
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.covers img {
-	width: 100%;
-	margin-bottom: 0;
+
+#menu li {
 }
-.covers li {
-	font-size: 12px;
-	line-height: 15px;
+
+#menu li a {
+  display: inline-block;
+  color: #0864c7;
 }
-	
+
+#left {
+  height: 1px;
+  float: left;
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  margin-top: 15px;
+  float: left;
+  width: 500px;
+}
+
+#content h1, #content h2, #content h3 {
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+  margin: 0;
+}
+
+#content h2 {
+  margin-top: 2em;
+}
+
+#content .byline, #content .byline a, #content .note {
+  font-size: 10px;
+  color: #aaa;
+}
+
+#content p, #content ul {
+  color: #333;
+  line-height: 18px;
+}
+
+#content sup.note {
+  display: inline-block;
+  margin-top: -5px;
+}
+
+#content p.notop {
+  margin-top: 0;
+}
+
+#content .thanks {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+  margin-bottom: 4em;
+  font-size: smaller;
+  color: #777;
+}
+
+#content .thanks a {
+  color: #777;
+}
+
+#content li {
+  margin-bottom: 0.7em;
+}
+
+.post + .post {
+  margin-top: 50px;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub { 
+  top: 0.4em; 
+}
 </style>
 </head>
 <body>
