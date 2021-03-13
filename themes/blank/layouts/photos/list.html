@@ -120,7 +120,7 @@ pre {
 	{{ range .Data.Pages.GroupByDate "2006" }}
 		{{ range .Pages }}
 			<li>
-				<a href="{{ .Permalink }}"><img src="https://superspeed.b-cdn.net{{ .Params.thumb }}?width=400&aspect_ratio=3:2"></a>
+				<a href="{{ .Permalink }}"><img src="https://superspeed.b-cdn.net{{ .Params.thumb }}?width=400&aspect_ratio=3:2&quality=50"></a>
 			</li>
 		{{ end }}
 	{{ end }}
