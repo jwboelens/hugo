@@ -91,6 +91,7 @@ date {
 		{{ range .Pages }}
 			<li>
 				<a href="{{ .Permalink }}"><img src="https://superspeed.b-cdn.net{{ .Params.photo }}?width=400&aspect_ratio=3:2&quality=50"></a>
+				<date>{{ .Date.Format "02.01.2006" }}</date>
 			</li>
 		{{ end }}
 	
