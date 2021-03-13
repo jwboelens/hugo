@@ -88,8 +88,8 @@ date {
 	</nav>
 </header>
 {{ range (.Data.Pages.GroupByDate "January 2006") }}
+<h3>{{ .Key }}</h3>
 <ul class="photos">
-	<h3>{{ .Key }}</h3>
 		{{ range .Pages }}
 			<li>
 				<a href="{{ .Permalink }}"><img src="https://superspeed.b-cdn.net{{ .Params.photo }}?width=400&aspect_ratio=3:2&quality=50"></a>
