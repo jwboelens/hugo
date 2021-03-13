@@ -69,8 +69,9 @@ date {
     padding: 0;
 }
 .photos img {
-	width: 100%;
-	margin-bottom: 0;
+    width: auto;
+    margin-bottom: 0;
+    max-height: 150px;
 }
 .photos li {
 	align-self: center;
@@ -91,7 +92,7 @@ date {
 <ul class="photos">
 		{{ range .Pages }}
 			<li>
-				<a href="{{ .Permalink }}"><img src="https://superspeed.b-cdn.net{{ .Params.photo }}?width=400&aspect_ratio=3:2&quality=50"></a>
+				<a href="{{ .Permalink }}"><img src="https://superspeed.b-cdn.net{{ .Params.photo }}?width=400&quality=50"></a>
 				<date>{{ .Date.Format "02.01.2006" }}</date>
 			</li>
 		{{ end }}
