@@ -5,17 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel=icon href=data:,>
 	<title>{{ .Title }}</title>
-	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-	{{ with .OutputFormats.Get "RSS" -}}
-		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-	{{- end }}
 <style type="text/css">
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-html { font-family: 'Inter var', sans-serif; }
-}
 html {
 	font-size: 14px;
 	line-height: 1.5;
@@ -63,29 +53,10 @@ hr {
 	margin-bottom: 4px;
 	letter-spacing: -0.02em;
 }
-postlink {
-	margin: 0 0 1em;
-	display: block;
-}
-postlink a {
-	color: inherit;
-	border: none;
-}
 date {
 	display: block;
 	color: #aaa;
 	font-size: 11px;
-}
-pre {
-    background: #fff;
-    padding: 3%;
-    border-radius: 5px;
-    word-wrap: break-word;
-    white-space: pre-line;
-    font-size: 13px;
-    margin: 1.5em 0;
-    border: 1px solid #ececec;
-    box-shadow: 0px 4px 10px #ede9e9;
 }
 
 /* Photos */
