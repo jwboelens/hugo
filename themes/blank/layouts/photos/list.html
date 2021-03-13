@@ -87,18 +87,18 @@ date {
 		<a href="/movies">movies</a>
 	</nav>
 </header>
-
+{{ range (.Data.Pages.GroupByDate "January 2006") }}
 <ul class="photos">
-	{{ range .Data.Pages.GroupByDate "2006" }}
+	<h3>{{ .Key }}</h3>
 		{{ range .Pages }}
 			<li>
 				<a href="{{ .Permalink }}"><img src="https://superspeed.b-cdn.net{{ .Params.photo }}?width=400&aspect_ratio=3:2&quality=50"></a>
 			</li>
 		{{ end }}
-	{{ end }}
+	
 </ul>
-
-{{ partial "footer" . }}
+{{ end }}
+{{ end }}
 
 </body>
 </html>
