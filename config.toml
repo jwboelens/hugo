@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "jwboelens.org"
+title = "janwillem.net"
 theme = "blank"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
