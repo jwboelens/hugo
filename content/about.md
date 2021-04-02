@@ -1,7 +1,0 @@
-----
-Title: About
-----
-
-# About
-
-Test
