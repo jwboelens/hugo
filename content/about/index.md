@@ -5,8 +5,7 @@ layout: page
 
 Hi, I’m Jan-Willem and have a cat named Bob. I have no need for a website, but here we are.
 
-During the day I work at Sunrise Medical, where I build stuff for the web, among other cool things. 
-At night, I dream about pizza and space.
+I work at Sunrise Medical, where I build stuff for the web, among other cool things. 
 
 ### This website
 
