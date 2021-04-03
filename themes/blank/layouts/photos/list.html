@@ -61,7 +61,7 @@ date {
 /* Photos */
 .photos {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	list-style: none;
 	grid-column-gap: 10px;
 	grid-row-gap: 4px;
@@ -101,13 +101,13 @@ date {
 	</nav>
 </header>
 	
-	<ul class="photos">
-		{{ range .Pages }}
+<ul class="photos">
+	{{ range .Pages }}
 		<li>
 			<a href="{{ .Permalink }}"><img src="https://cdn.janwillem.net{{ .Params.photo }}?width=400&quality=50"></a>
 		</li>	
-		{{ end }}
-	</ul>
+	{{ end }}
+</ul>
 
 </body>
 </html>
