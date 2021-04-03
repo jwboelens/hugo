@@ -14,15 +14,12 @@ html {
 	color: #000;
 }
 body {
-	padding: 1em 1.5em;
+	padding: 10px
 }
 header {
 	margin: 0 0 2em;
 }
-nav {
-	display: inline;
-}
-nav a {
+.nav {
 	border: none;
 	color: #aaa;
 	margin-left: 1em;
@@ -91,11 +88,7 @@ picture {
 <body>
 	
 <header>
-	<a class="logo" href="{{ .Site.BaseURL }}">Jan-Willem Boelens</a>
-	<nav>
-		<a href="/photos">photos</a>
-		<a href="/movies">movies</a>
-	</nav>
+	<a class="logo" href="{{ .Site.BaseURL }}">Jan-Willem Boelens</a> <a class="nav" href="/photos">photos</a>
 </header>
 
 <picture>
