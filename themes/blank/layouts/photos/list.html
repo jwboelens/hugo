@@ -14,9 +14,8 @@ html {
 	color: #000;
 }
 body {
-	max-width: 60em;
 	margin: 0 auto;
-	padding: 2.5em 1.5em;
+	padding: 0;
 }
 header {
 	display: flex;
@@ -61,19 +60,34 @@ date {
 
 /* Photos */
 .photos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    list-style: none;
-    grid-column-gap: 10px;
-    grid-row-gap: 4px;
-    padding: 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	list-style: none;
+	grid-column-gap: 10px;
+	grid-row-gap: 4px;
+	padding: 0;
 }
 .photos img {
-    width: 100%;
-    margin-bottom: 0;
+	width: 100%;
+	margin-bottom: 0;
 }
 .photos li {
 	align-self: center;
+}
+@media(min-width:768px) {
+ .photos {
+  grid-template-columns:repeat(3,minmax(0,1fr))
+ }
+}
+@media(min-width:1024px) {
+ .photos {
+  grid-template-columns:repeat(4,minmax(0,1fr));
+ }
+}
+@media(min-width:1280px) {
+ .photos {
+  grid-template-columns:repeat(5,minmax(0,1fr))
+ }
 }
 </style>
 </head>
