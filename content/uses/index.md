@@ -3,7 +3,7 @@ title: "Uses"
 layout: page
 ---
 
-# Uses
+A simple list of the stuff I like to use.
 
 ### Hardware
 
