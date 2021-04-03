@@ -101,14 +101,12 @@ date {
 	</nav>
 </header>
 	
-{{ range (.Data.Pages.GroupByDate "January 2006") }}
-<ul class="photos">
-		{{ range .Pages }}
-			<li>
-				<a href="{{ .Permalink }}"><img src="https://cdn.janwillem.net{{ .Params.photo }}?width=400&quality=50"></a>
-			</li>
-		{{ end }}	
-</ul>
+{{ range .Pages }}
+	<ul class="photos">		
+		<li>
+			<a href="{{ .Permalink }}"><img src="https://cdn.janwillem.net{{ .Params.photo }}?width=400&quality=50"></a>
+		</li>	
+	</ul>
 {{ end }}
 
 </body>
