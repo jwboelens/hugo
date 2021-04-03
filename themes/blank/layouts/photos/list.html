@@ -104,7 +104,7 @@ date {
 <ul class="photos">
 	{{ range .Pages }}
 		<li>
-			<a href="{{ .Permalink }}"><img src="https://cdn.janwillem.net{{ .Params.photo }}?width=400&quality=50"></a>
+			<a href="{{ .Permalink }}"><img src="https://cdn.janwillem.net{{ .Params.photo }}?width=400&aspect_ratio=3:2&quality=50"></a>
 		</li>	
 	{{ end }}
 </ul>
