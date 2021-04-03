@@ -101,13 +101,13 @@ date {
 	</nav>
 </header>
 	
-<ul class="photos">
+<div class="photos">
 	{{ range .Pages }}
-		<li>
+		<div class="photo-item">
 			<a href="{{ .Permalink }}"><img src="https://cdn.janwillem.net{{ .Params.photo }}?width=400&aspect_ratio=3:2&quality=50"></a>
-		</li>	
+		</div>	
 	{{ end }}
-</ul>
+</div>
 
 </body>
 </html>
