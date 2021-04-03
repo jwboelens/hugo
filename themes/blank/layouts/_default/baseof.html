@@ -5,12 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel=icon href=data:,>
 	<title>{{ .Title }}</title>
-<style type="text/css">	
+<style type="text/css">
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+html { font-family: 'Inter var', sans-serif; }
+}
 html {
-  	font-family: serif;
 	font-size: 16px;
 	line-height: 1.5;
 	color: #2e3440;
+	-moz-osx-font-smoothing: grayscale;
 }	
 body {
 	max-width: 32em;
@@ -43,11 +48,11 @@ hr {
 }	
 h1 {
     	font-size: 175%;
-	font-weight: 400;
+	font-weight: 700;
 }
 h3 {
 	font-size: 125%;
-	font-weight: 400;
+	font-weight: 700;
 	margin: 1.5em 0 1em;
 }
 p a {
