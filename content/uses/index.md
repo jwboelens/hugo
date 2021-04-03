@@ -16,4 +16,4 @@ Still my favorite keyboard.
 **Logitech G502 Hero**
 
 **OnePlus Nord**  
-512gb. Looking into de-googling it.
+256gb. Looking into de-googling it.
