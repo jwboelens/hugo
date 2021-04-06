@@ -24,5 +24,5 @@ Still my favorite keyboard.
 **OnePlus Nord**  
 256gb. Looking into de-googling it.
 
-**Canon G7X Mark II**
+**Canon G7X Mark II**  
 I have a Canon 70D, but my main camera is the G7X. I love this thing. It's small, takes great photos and is super fast to control.
