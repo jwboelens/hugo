@@ -15,7 +15,7 @@ No albums, just a stream of photos. I decided I need to make my own photoblog on
 
 This turned out to be the most difficult problem: where to put the actual photos. My website is hosted on Github/Netlify but I didn't want my photos there, mainly because of the workflow. Or the lack thereof.
 
-I've used bunny.net as a can before and they have a image optimizer which is very cool, but costs $9.50 a month. That's too much for a simple photoblog.
+I've used bunny.net as a cdn before and they have a image optimizer which is very cool, but costs $9.50 a month. That's too much for a simple photoblog.
 
 I could also use WordPress but for a simple photoblog, that was too much hassle and I knew there should be an easier way.
 
