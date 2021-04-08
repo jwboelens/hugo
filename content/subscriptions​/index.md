@@ -5,8 +5,4 @@ layout: page
 
 My monthly digital subscriptions.
 
-Netflix €14  
-YouTube Premium €13  
-Amazon Prime €6  
-Blot €4  
-**total €37**
+[temp](https://user-images.githubusercontent.com/50526127/114041461-dca77880-9884-11eb-8ce7-b72d79fa274d.jpg)
