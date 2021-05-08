@@ -9,6 +9,4 @@ I work at Sunrise Medical, where I build stuff for the web, among other cool thi
 
 ### This website
 
-This website is powered by Hugo, Netlify and Github. Everytime I add or change something, Netlify does it's magic. It's free, fast and reasonably easy.
-
-And I promise: no cookies, javascript or other crap. I don't care about visitor numbers.
+This website is powered by Hugo, Netlify and Github. No cookies, javascript or other crap.
