@@ -5,9 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel=icon href=data:,>
 	<title>{{ .Title }}</title>
-<style type="text/css">	
+<style type="text/css">
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+html { font-family: 'Inter var', sans-serif; }
+}
 body {
-	font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Arial,sans-serif;
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: 400;
 	font-size: 16px;
