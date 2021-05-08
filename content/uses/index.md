@@ -15,14 +15,15 @@ A simple list of the stuff I like to use.
 Because one has never enough USB ports.
 
 - **Yubico NFC Key**  
+Because security.
 
 - **Leopold FC750R**  
 Still my favorite keyboard.
 
-- **Logitech G502 Hero**
+- **Logitech MX Ergo**
 
-- **OnePlus Nord**  
-256gb. Looking into de-googling it.
+- **iPhone 8 Plus**  
+Back from Android again. Main reason: privacy.
 
 - **Canon G7X Mark II**  
 I have a Canon 70D, but my main camera is the G7X. I love this thing. It's small, takes great photos and is super fast to control.
