@@ -92,13 +92,13 @@ date {
 <body>
 
 <header>
-	<a class="logo" href="{{ .Site.BaseURL }}">Jan-Willem Boelens</a>	<a class="nav" href="/photos">photos</a>
+	<a class="logo" href="{{ .Site.BaseURL }}">janwillem.net</a> <a class="nav" href="/photos">photos</a>
 </header>
 	
 <div class="photos">
 	{{ range .Pages }}
 		<div class="photo-item">
-			<a href="{{ .Permalink }}"><img src="https://cdn.janwillem.net{{ .Params.photo }}?width=400&aspect_ratio=3:2&quality=50"></a>
+			<a href="{{ .Permalink }}"><img src="https://cdn.janwillem.net{{ .Params.photo }}?width=400&aspect_ratio=1:1&quality=50"></a>
 		</div>	
 	{{ end }}
 </div>
