@@ -1,11 +1,11 @@
 {{define "main"}} 
 
-<ul class="covers">
+<ol class="covers">
   {{ range (.Pages.ByParam "artist") }}
     <li>
       <b>{{.Params.artist}}</b> - {{.Title}}
     </li>
   {{ end }}
-</ul>
+</ol>
 
 {{ end }}
