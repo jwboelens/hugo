@@ -15,10 +15,9 @@
 
 {{ range (where .Site.Pages "Section" "posts") }}
    {{ range .Pages }}
-		<postlink>
+		<ol>
 			<a href="{{ .Permalink }}">{{ .Title }}</a>
-			<date>{{ .Date.Format "02.01.2006" }}</date>
-		</postlink>
+		</ol>
    {{ end }}
 {{ end }}
 
