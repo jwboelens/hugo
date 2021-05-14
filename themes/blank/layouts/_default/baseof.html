@@ -29,8 +29,10 @@ table{text-align:left;width:100%;}
 </style>
 </head>
 <body>
+<main>
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
+</main>
 </body>
 </html>
