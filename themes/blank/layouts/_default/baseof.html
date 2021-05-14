@@ -6,89 +6,25 @@
 	<link rel=icon href=data:,>
 	<title>{{ .Title }}</title>
 <style type="text/css">
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-html { font-family: 'Inter var', sans-serif; }
+body{font:100%/1.48 sans-serif;}
+hr{background:lightgrey;border:0;height:1px;}
+h1,h2,h3{font-size:20px;line-height:1.2;margin:2rem 0 0;}
+main{max-width:66ch;padding:4ch 8ch;margin:0;}
+img{height:auto;max-width:100%;}
+pre{overflow:auto;}
+table{text-align:left;width:100%;}
+@media(max-width:600px){
+    main{padding:0 1ch 4ch;}
 }
-body {
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 1.6;
-	max-width: 30em;
-	margin: 0 auto;
-	padding: 3em 1.5em;
-	color: #121212;
-	background: #F7F5ED;
-}	
-header {
-	margin: 0 0 3em;
-}
-nav a {
-  	color: inherit;
-	margin-right: 1em;
-	text-decoration: none;
-	border-bottom: none;
-	font-size: 13px;
-}
-h1 {
-	font-weight: 600;
-	letter-spacing: -0.03em;
-}
-h3 {
-	font-weight: 600;
-	margin: 2em 0 1em;
-	letter-spacing: -0.02em;
-}
-p a, postlink a {
-	color: #386aff;
-	text-decoration: none;
-}
-b, strong {
-	font-weight: 600;
-}
-hr {
-	margin: 2rem 0;
-	max-width: 3rem;
-	border: none;
-	border-top: 1px solid #e8e8e8;
-}
-ul {
-    	padding: 0;
-}
-pre {
-	white-space: pre-wrap;       /* css-3 */
-	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-	white-space: -pre-wrap;      /* Opera 4-6 */
-	white-space: -o-pre-wrap;    /* Opera 7 */
-	word-wrap: break-word;       /* Internet Explorer 5.5+ */
-	border-radius: 5px;
-	border: 1px solid #eaeaea;
-	padding: 1em 1.3em;
-	font-size: 14px;
-}
-movies li {
-	list-style: none;
-}
-movies date, postlink date, date {
-	font-size: 12px;
-	color: #aaa;
-	text-transform: lowercase;
-	margin: 0 0 1em;
-	display: block;
+@media (prefers-color-scheme: dark) {
+    body{background:#2d2d2d;filter:invert(1);}
+    img,pre,iframe{filter:invert(1);}
 }	
 .star {
 	width: 13px;
 	height: 12px;
 	display: inline-block;
 	background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuMzA5IDkuMjJMMi40MDkgMTJsMS40NC00LjU2N0wwIDQuNTgzbDQuNzg4LS4wNDJMNi4zMDggMCA3LjgzIDQuNTRsNC43ODkuMDQ0LTMuODUgMi44NDlMMTAuMjA5IDEyeiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
-}
-.covers li {
-}
-footer {
-  	margin: 4em 0 0;
-	font-size: 13px;
 }
 </style>
 </head>
