@@ -3,6 +3,8 @@ title: "Uses"
 layout: page
 ---
 
+# Uses
+
 My current setup.
 
 - **M1 Mac Mini**  
