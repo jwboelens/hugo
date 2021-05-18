@@ -17,14 +17,14 @@
 
 <h3>Posts</h3>
 
-{{ range (where .Site.Pages "Section" "posts") }}
 <ol>
+{{ range (where .Site.Pages "Section" "posts") }}
 	{{ range .Pages }}
 		<li>
 			<a href="{{ .Permalink }}">{{ .Title }}</a>
 		</li>
 	{{ end }}
-</ol>
 {{ end }}
+</ol>
 
 {{ end }}
