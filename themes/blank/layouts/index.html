@@ -17,7 +17,7 @@
 
 <h3>Posts</h3>
 
-<ol>
+<ol reversed>
 {{ range (where .Site.Pages "Section" "posts") }}
 	{{ range .Pages }}
 		<li>
