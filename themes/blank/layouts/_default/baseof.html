@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel=icon href=data:,>
-	<title>{{ .Title }}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=icon href=data:,>
+<title>{{ .Title }}</title>
 <style type="text/css">
 body{line-height:1.3;position:relative;}
 header{display:block;margin:0 0 5rem;}
@@ -23,21 +23,11 @@ ol{padding:0;}
 ol li{list-style:decimal;}
 li{list-style:none;}
 footer{display:block;margin:5rem 0 0;color:#aaa;}
-#dark-button{
-	top:20px;
-	right:20px;
-	position: absolute;
-}
-.dark-mode {
-	color:#f9f9f9;
-	background-color: #222;
-}
 @media(max-width:600px){
     main{padding:0 1ch 4ch;}
 }
 @media (prefers-color-scheme: dark) {
     body{background:#2d2d2d;filter:invert(1);}
-    img,pre,iframe{filter:invert(1);}
 }	
 .star {
 	width: 13px;
