@@ -53,10 +53,11 @@ footer{display:block;margin:5rem 0 0;color:#aaa;}
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
 </main>
-<script type="text/javascript">
-	function onclick(event) {
-		darkToggle()
-	}
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
 </script>
 </body>
 </html>
