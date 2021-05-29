@@ -6,11 +6,28 @@
 <link rel=icon href=data:,>
 <title>{{ .Title }}</title>
 <style type="text/css">
-body{margin:0 auto;max-width:75ch;padding:10px;}
+html{font-size:medium;}
+body{font-size:100%;line-height:1.5;background-color:#fffff0;color:#16161d;margin:0 auto;max-width:75ch;padding:1rem;}
+p,h1,h2,h3,h4,h5,h6{hyphen:auto;}
+dt{font-weight: bold;}
+dd{margin-bottom:1rem;}
+h1,h2,h3{line-height:1.2;}
 pre{overflow:auto;}
-@media (prefers-color-scheme: dark) {
-    body{background:#191919;filter:invert(1);}
-}
+pre,code{font-size:1.1rem;font-family:monospace;}
+th,td{padding-right:2rem;}
+blockquote{border-left:1px solid #16161d;padding-left:1rem;}
+cite{font-style:normal;}
+img{max-width:100%;}
+figure{margin-left:0;}
+figcaption{font-size:90%;}
+hr{border-style:none;height:1px;background-color:#16161d;}
+a{color:#3333ff;}
+a:hover{color:#6600ff;}
+a:active{color:#cc0000;}
+a:visited{color:#9933cc;}
+@media only print{html{font-size:12px;}}
+@media only screen and (min-device-width:1366px){html{font-size:large;}}
+@media only screen and (min-device-width:1920px){html{font-size:larger;}}
 </style>
 </head>
 <body>
