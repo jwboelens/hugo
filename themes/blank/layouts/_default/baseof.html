@@ -6,8 +6,14 @@
 <link rel=icon href=data:,>
 <title>{{ .Title }}</title>
 <style type="text/css">
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
 body {
-	font: 100%/1.48 sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
 	margin:auto;
 	max-width: 38rem;
 	padding: 2rem 1rem;
