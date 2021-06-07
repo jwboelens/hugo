@@ -5,11 +5,9 @@
 <date>{{ .Date.Format "02.01.2006" }}</date>
 
 <p>
-<ul>
-    {{ range (.GetTerms "tags") }}
-        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+    {{ range .Params.tags }}
+        <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a> 
     {{ end }}
-</ul>
 </p>
 
 {{ end }}
