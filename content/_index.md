@@ -5,8 +5,6 @@ images:
   - /images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg
 ---
 
-# 👋
-
 {{< figure 
     src="/images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg" 
     alt="Hello!"  
