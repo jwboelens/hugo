@@ -1,7 +1,6 @@
 ---
-title: Welcome to Major's blog!
+title: janwillem.xyz
 slug: /
-description: Come for the technical content and stay for the emojis.
 images:
   - /images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg
 ---
