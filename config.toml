@@ -2,17 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "janwillem.xyz"
 theme = "blank"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
-[params]
-  AuthorName = "Jon Doe"
-  Subtitle = "Hugo is Absurdly Fast!"
-
-[permalinks]
-  posts = "/:year/:month/:title/"
-  
-[taxonomies]
-  tag      = "tags"
-  category = "categories"
-  
 [markup.goldmark.renderer]
-  unsafe= true
+unsafe= true
