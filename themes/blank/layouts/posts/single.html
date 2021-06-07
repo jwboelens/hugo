@@ -1,8 +1,13 @@
 {{ define "main" }}
-	<article>
-		<div>
-			{{ .Content }}
-		<date>{{ .Date.Format "02.01.2006" }}</date>
-		</div>
-	</article>
+
+{{ .Content }}
+
+<date>{{ .Date.Format "02.01.2006" }}</date>
+
+{{ with .Params.tags }}
+	{{ range . -}}
+		<span class="tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}/">{{.}}</a></span>
+	{{ end }}
+{{ end }}
+
 {{ end }}
