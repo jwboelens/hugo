@@ -4,8 +4,10 @@
 
 <date>{{ .Date.Format "02.01.2006" }}</date>
 
+<p>
 {{ range .Params.tags }}
 	<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a>
 {{ end }}
+</p>
 
 {{ end }}
