@@ -1,6 +1,7 @@
 ---
 title: "My New Photoblog"
 date: 2021-04-06
+tags: ["email", "productivity", "test"]
 ---
 
 # My New Photoblog
