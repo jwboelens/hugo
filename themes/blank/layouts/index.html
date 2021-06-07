@@ -1,30 +1,24 @@
-{{define "main"}} 
-
-<intro>
-<p>Hi, I’m Jan-Willem and have a cat named Bob. I have no need for a website, but here we are.</p>
-
-<p>I work at Sunrise Medical, where I build stuff for the web, among other cool things.
-</p>
-
-<p>Things I like: taking <a href="https://photos.janwillem.xyz">photos</a>, 
-	complaining about things, watching <a href="https://letterboxd.com/janwillem">movies</a> and cycling.<p>
-
-<p>I <s>hate all</s> have no social media.</p>
-
-</intro>
-
-<hr>
-
-<h3>Posts</h3>
-
-<ul>
-{{ range (where .Site.Pages "Section" "posts") }}
-	{{ range .Pages }}
-		<li>
-			<a href="{{ .Permalink }}">{{ .Title }}</a>
-		</li>
-	{{ end }}
+{{ define "body" }}
+    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
 {{ end }}
-</ul>
 
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            {{ if .Site.Params.Portrait.Path }}
+               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+            {{ end }}
+
+            <h1>{{ .Site.Title }}</h1>
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
 {{ end }}
