@@ -33,15 +33,5 @@ All content is licensed under [CC-BY-SA 4.0].
 [GitHub repository]: https://github.com/major/major.io
 [CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
 
-Find me on Twitter as [@majorhayden]. My code lives in [GitHub] and [GitLab].
-
 Send me an [email] and use my [GPG key] if you need to share something
 sensitive.
-
-[@majorhayden]: https://twitter.com/majorhayden
-[GitHub]: https://github.com/major
-[GitLab]: https://gitlab.com/majorhayden
-[email]: mailto:major@mhtx.net
-[GPG key]: https://github.com/major.gpg
-
-_Photo credit: [Jon Tyson via Unsplash](https://unsplash.com/photos/8MMtYM_3xMY)_
