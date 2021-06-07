@@ -4,10 +4,8 @@
 
 <date>{{ .Date.Format "02.01.2006" }}</date>
 
-{{ with .Params.tags }}
-	{{ range . -}}
-		<span class="tag"><a href="{{ "tags/" | absLangURL }}{{ . | urlize }}/">{{.}}</a></span>
-	{{ end }}
+{{ range .Params.tags }}
+	<a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}">#{{ . }}</a>
 {{ end }}
 
 {{ end }}
