@@ -23,4 +23,4 @@ I like looking at stuff other people use so I made my own list: <a href="/uses">
 This website is built with Hugo. It lives on Github and is somehow converted to a website via Netlify. 
 Don't ask me how it works, it just does. And it's free. 🎉
 
-Photo by <a href="https://unsplash.com/@polhow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pablo Gentile</a> on <a href="https://unsplash.com/s/photos/hello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+<a href="https://photos.janwillem.xyz/2021/06/5/img-2768">Photo</a> of my brother and niece by me.
