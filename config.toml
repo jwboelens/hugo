@@ -1,8 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "janwillem.xyz"
+title = "J.W. Boelens"
 theme = "blank"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+paginate = 6
 
 [markup.goldmark.renderer]
 unsafe= true
