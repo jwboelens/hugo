@@ -2,11 +2,11 @@
 title: janwillem.xyz
 slug: /
 images:
-  - /images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg
+  - /images/51226620373_5cc218e8c6_k.jpg
 ---
 
 {{< figure 
-    src="/images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg" 
+    src="/images/51226620373_5cc218e8c6_k.jpg" 
     alt="Hello!"  
     position="center"
 >}}
