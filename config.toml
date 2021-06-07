@@ -1,5 +1,5 @@
 baseURL = "/"
-footnoteReturnLinkContents = "↩"
+languageCode = "en-us"
 title = "janwillem.xyz"
 theme = "blank"
 
