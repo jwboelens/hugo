@@ -1,11 +1,18 @@
 baseURL = "/"
-languageCode = "en-us"
+footnoteReturnLinkContents = "↩"
 title = "janwillem.xyz"
 theme = "blank"
 
-[markup.goldmark.renderer]
-unsafe= true
+[params]
+  AuthorName = "Jon Doe"
+  Subtitle = "Hugo is Absurdly Fast!"
 
+[permalinks]
+  posts = "/:year/:month/:title/"
+  
 [taxonomies]
   tag      = "tags"
   category = "categories"
+  
+[markup.goldmark.renderer]
+  unsafe= true
