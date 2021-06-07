@@ -5,7 +5,7 @@ images:
   - /images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg
 ---
 
-# 👋!
+# 👋
 
 {{< figure 
     src="/images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg" 
@@ -29,8 +29,8 @@ should write a post on that)_. 🤔
 
 All content is licensed under [CC-BY-SA 4.0].
 
-[GitHub repository]: https://github.com/major/major.io
-[CC-BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/
-
 Send me an [email] and use my [GPG key] if you need to share something
 sensitive.
+
+Photo by <a href="https://unsplash.com/@polhow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pablo Gentile</a> on <a href="https://unsplash.com/s/photos/hello?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
