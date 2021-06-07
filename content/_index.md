@@ -3,14 +3,14 @@ title: Welcome to Major's blog!
 slug: /
 description: Come for the technical content and stay for the emojis.
 images:
-  - /images/hola-sign.jpg
+  - /images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg
 ---
 
-# Welcome!
+# 👋!
 
 {{< figure 
-    src="/images/hola-sign.jpg" 
-    alt="Lighted sign that says 'hola'"  
+    src="/images/pablo-gentile-3MYvgsH1uK0-unsplash.jpg" 
+    alt="Hello!"  
     position="center"
 >}}
 
