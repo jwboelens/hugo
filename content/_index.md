@@ -11,17 +11,14 @@ images:
     position="center"
 >}}
 
-This blog serves as my way to give back to all of the people who taught me
-something over my career. It all started in 2007 when I needed a way to keep
-track of all the information I learned during my daily work as a systems
-administrator.
+Hi, I’m Jan-Willem. I have a cat named Bob. I have no need for a website, but here we are.
 
-Most posts are highly technical, but there are also ports about launching your
-career, improving your life, and even dabbling in the stock market. I hope you
-find the content here useful and I am always open to feedback.
+I ~~hate all~~ don’t have any social media.
 
 Taking photographs is one of my longest running hobbies. 
 You can look at some of the photos I take at <a href="https://photos.janwillem.xyz">photos.janwillem.xyz</a>.
+
+I like looking at stuff other people use so I made my own list: <a href="/uses">/uses</a>.
 
 This website is built with Hugo. It lives on Github and is somehow converted to a website via Netlify. 
 Don't ask me how it works, it just does. And it's free. 🎉
