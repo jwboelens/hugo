@@ -1,7 +1,7 @@
 ---
 title: "My New Photoblog"
 date: 2021-04-06
-tags: ["photos"]
+tags: ["photos", "website"]
 ---
 
 # My New Photoblog
