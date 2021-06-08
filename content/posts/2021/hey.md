@@ -4,6 +4,8 @@ date: 2021-05-23
 tags: ["email"]
 ---
 
+# Hey
+
 In the last couple of weeks there have been an number of people writing blog posts about them leaving the email service Hey and going back to Gmail or any of their previous email providers. 
 
 Reason being that Hey is either: made by Basecamp, which is a terrible company or people are finally finding out that Hey is just an email service like any other with better marketing.
