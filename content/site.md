@@ -8,6 +8,6 @@ slug: site
 
 I love reading other people's websites and how they build them. So here is my own **/site!**
 
-This content of this website is stored on Github. It's free and relatively easy to create new content. I don't understand Github and "commiting the gits", but somehow for this website, it works. Whenever I make a change, Netlify does it's thing and pushes the change to the real world.
+This website is built with Hugo. It lives on Github and is somehow converted to a website via Netlify. Don’t ask me how it works, it just does. And it’s free. 🎉
 
-The design of this website is... well, there is none. Websites need to be fast and simple to read and navigate. There are no cookies, javascript or other crap loaded. So wysiwyg.
+The design of this website is... well, simple. Websites need to be fast and simple to read and navigate. Zero cookies, javascript or other crap.
