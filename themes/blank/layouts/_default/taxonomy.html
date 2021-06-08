@@ -1,11 +1,13 @@
+{{ define "main" }}
+
 {{ with .Params.description }}
   <p>{{.}}</p>
 {{ end }}
 
-<ul>
   {{ range .Data.Pages }}
-     <li>
-       <a href="{{ .Permalink}}">{{ .Title }}</a>
-     </li>
+    <postlink>
+      <date>{{ .Date.Format "02.01.2006" }}</date> <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+    </postlink>
   {{ end }}
-</ul>
+
+{{ end }}
