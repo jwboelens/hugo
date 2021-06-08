@@ -1,7 +1,7 @@
 ---
 title: "My New Photoblog"
 date: 2021-04-06
-tags: ["email", "productivity", "test"]
+tags: ["photos"]
 ---
 
 # My New Photoblog
@@ -30,4 +30,4 @@ I chose the simplest template there was and made it even simpler by stripping aw
 
 So now, if I want to post a photo on my photoblog, I upload the photo to the correct Dropbox folder and Blot takes care of the rest.
 
-You can view the result at [photos.janwillem.net](https://photos.janwillem.net).
+You can view the result at [photos.janwillem.xyz](https://photos.janwillem.xyz).
