@@ -1,7 +1,7 @@
 {{define "main"}} 
 {{ range (.Data.Pages.GroupByDate "2006") }}
 
-<h3>{{ .Key }}</h3>
+<year>{{ .Key }}</year>
 
 {{ range .Pages }}
 <ul class="frontpage">
