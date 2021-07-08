@@ -1,11 +1,11 @@
 {{define "main"}} 
-{{ range (.Data.Pages.GroupByDate "2006-01") }}
+{{ range (.Data.Pages.GroupByDate "2006") }}
 
 <h3>{{ .Key }}</h3>
 
 {{ range .Pages }}
   <li>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>{{.Title}} <date>{{.Date.Format "2006-01-02"}}</date>
+    <a href="{{ .Permalink }}">{{ .Title }}</a> <date>{{.Date.Format "2006-01-02"}}</date>
   </li>
 {{ end }}
 
