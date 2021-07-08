@@ -4,10 +4,12 @@
 <h3>{{ .Key }}</h3>
 
 {{ range .Pages }}
+<ul class="frontpage">
   <li>
     <a href="{{ .Permalink }}">{{ .Title }}</a>
-    {{.Params.intro}}
+    <intro>{{.Params.intro}}</intro>
   </li>
+</ul>
 {{ end }}
 
 {{ end }}
