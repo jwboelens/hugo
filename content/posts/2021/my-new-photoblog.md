@@ -2,6 +2,7 @@
 title: "My New Photoblog"
 date: 2021-04-06
 tags: ["photos", "website"]
+intro: "I have a new website for my photos."
 ---
 
 # My New Photoblog
