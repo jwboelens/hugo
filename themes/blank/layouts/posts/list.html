@@ -4,11 +4,9 @@
 <h3>{{ .Key }}</h3>
 
 {{ range .Pages }}
-<movies>
   <li>
-    {{.Title}} <div class="star" style="width:{{.Params.rating}}"></div> <date>{{.Date.Format "2006-01-02"}}</date>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>{{.Title}} <date>{{.Date.Format "2006-01-02"}}</date>
   </li>
-</movies>
 {{ end }}
 
 {{ end }}
