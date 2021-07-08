@@ -6,6 +6,7 @@
 {{ range .Pages }}
   <li>
     <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{.Params.intro}}
   </li>
 {{ end }}
 
