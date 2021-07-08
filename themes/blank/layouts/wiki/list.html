@@ -4,7 +4,6 @@
    {{ range .Pages.ByTitle }}
 	<postlink>
 		<a href="{{ .Permalink }}">{{ .Title }}</a>
-		<date>{{ .Date.Format "02.01.2006" }}</date>
 	</postlink>
    {{ end }}
 {{ end }}
