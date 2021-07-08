@@ -2,6 +2,7 @@
 title: "Hey"
 date: 2021-05-23
 tags: ["email"]
+intro: "A little something about everyone's favorite: email."
 ---
 
 # Hey
