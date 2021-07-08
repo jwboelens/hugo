@@ -4,13 +4,11 @@
 <h3>{{ .Key }}</h3>
 
 {{ range (where .Site.Pages "Section" "posts") }}
-{{ range .Pages }}
 <movies>
   <li>
     {{.Title}} <div class="star" style="width:{{.Params.rating}}"></div> <date>{{.Date.Format "2006-01-02"}}</date>
   </li>
 </movies>
-{{ end }}
 {{ end }}
 
 {{ end }}
