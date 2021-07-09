@@ -4,8 +4,6 @@ layout: page
 slug: uses
 ---
 
-# Uses
-
 My current setup.
 
 ### Desktop computer
