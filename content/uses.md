@@ -15,7 +15,8 @@ My current setup.
 - Corsair DDR4 Vengeance LPX 2x8GB
 - AOC 24G2U
 - Logitech G502 Hero
-- Leopold FC750R- LG 27UD88-W
+- Leopold FC750R
+- LG 27UD88-W
 - Yubico NFC Key
 
 ### Mobile
