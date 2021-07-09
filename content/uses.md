@@ -8,25 +8,25 @@ slug: uses
 
 My current setup.
 
-- **M1 Mac Mini**  
-16gb / 512gb. This is my main computer. Coming from a MacBook Pro from 2017 that I did not like at all, this thing is great. It's fast, silent and does everything I want.
+### Desktop computer
 
-- **LG 27UD88-W**  
-4K & USB C.
+- NZXT H510 in white  
+- AMD Ryzen 5 3600  
+- Gigabyte Aorus X570 ELITE  
+- Samsung 970 EVO 1TB  
+- Corsair DDR4 Vengeance LPX 2x8GB  
+- AOC 24G2U  
+- Logitech G502 Hero  
+- Leopold FC750R
+- LG 27UD88-W
 
-- **Aukey USB C Hub**  
+- Aukey USB C Hub
 Because one has never enough USB ports.
 
-- **Yubico NFC Key**  
+- Yubico NFC Key  
 Because security.
 
-- **Leopold FC750R**  
-Still my favorite keyboard.
+- OnePlus Nord  
 
-- **Logitech MX Ergo**
-
-- **iPhone 8 Plus**  
-Back from Android again. Main reason: privacy.
-
-- **Canon G7X Mark II**  
+- Canon G7X Mark II 
 I have a Canon 70D, but my main camera is the G7X. I love this thing. It's small, takes great photos and is super fast to control.
