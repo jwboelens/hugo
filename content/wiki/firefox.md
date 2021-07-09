@@ -4,7 +4,7 @@ title: "Firefox"
 
 # Firefox
 
-### Links
+### Add-ons
 
 - ColorZilla
 - Ghostery
