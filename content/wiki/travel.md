@@ -4,21 +4,21 @@ title: "Travel"
 
 # Countries visited
 
-- Netherlands
-- Belgium
-- Germany
-- England
-- Austria
-- Italy
-- Spain
-- Portugal
-- Luxembourg
-- Denmark
-- Norway
-- Sweden
-- United Arab Emirates
-- United States
+1. Netherlands
+2. Belgium
+3. Germany
+4. England
+5. Austria
+6. Italy
+7. Spain
+8. Portugal
+9. Luxembourg
+10. Denmark
+11. Norway
+12. Sweden
+13. United Arab Emirates
+14. United States
 
 # Countries I want to visit
 
-- Canada
+1. Canada
