@@ -1,7 +1,5 @@
 ---
 title: "Site"
-layout: page
-slug: site
 ---
 
 # /Site
