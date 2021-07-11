@@ -2,8 +2,6 @@
 title: "Hugo"
 ---
 
-# Hugo
-
 ## Snippets
 
 ### Tags
@@ -32,4 +30,12 @@ title: "Hugo"
 
 {{ end }}
 {{ end }}
+```
+
+### Raw HTML
+```
+In your config enter:
+
+[markup.goldmark.renderer]
+unsafe= true
 ```
