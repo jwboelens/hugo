@@ -1,7 +1,5 @@
 ---
 title: "Uses"
-layout: page
-slug: uses
 ---
 
 My current setup.
