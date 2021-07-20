@@ -34,7 +34,7 @@ div.archive > div img {
 
 <div>	
 <div class="archive">
-  {{ range (.Data.Pages.ByParam "date") }}
+  {{ range .Pages.ByDate }}
   <div>
     <a href="{{ .Permalink }}">{{ with .Params.thumbnail }}<img src="{{ . }}">{{ end }}</a>
   </div>
