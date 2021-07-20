@@ -1,7 +1,11 @@
+{{define "main"}}
+
 {{ range .Pages }}
 <notes>
   <li>
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </li>
 </notes>
+{{ end }}
+
 {{ end }}
