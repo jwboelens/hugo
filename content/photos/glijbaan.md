@@ -1,6 +1,6 @@
 ---
 title: "Glijbaan"
-thumbnail: "https://cdn.jwboelens.photos/photos/50644282726_768958ba55_w.jpg"
+thumbnail: "/images/51226620373_5cc218e8c6_k.jpg"
 ---
 
-<img src="https://cdn.jwboelens.photos/photos/50644282726_1f3c4df860_k.jpg">
+<img src="/images/51226620373_5cc218e8c6_k.jpg">
