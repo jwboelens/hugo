@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<title>janwillem.net | website by J.W. Boelens</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel=icon href=data:,>
+<style>
+@import url('https://rsms.me/inter/inter.css');
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	max-width: 64em;
+	margin: 0 auto;
+	padding: 2em 2.5em;
+	color: #4d4d4d;
+}
+header {
+	padding-bottom: 1em;
+}
+.logo {
+	color: inherit;
+	font-weight: 600;
+}
+.nav {
+	color: #aaa;
+}
+h1, h2, h3 {
+	font-weight: 600;
+}
+h1 {
+	letter-spacing: -0.03em;
+}
+h3 {
+	margin: 2em 0 1em;
+	letter-spacing: -0.02em;
+}
+#content {
+	margin: 4em 0;
+}
+fplist {
+	display: block;
+}
+hr {
+	margin: 2rem 0;
+	max-width: 3rem;
+	border: none;
+	border-top: 1px solid rgba(13,13,13,.2);
+}
+footer {
+	color: #aaa;
+	font-size: 12px;
+	line-height: 20px;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	margin: 10px 0 0 0;
+}
+b, strong {
+	font-weight: 600;
+}
+a {
+    	color: #006fff;
+	text-decoration: none;
+}
+mark {
+	background: none;
+	box-decoration-break: clone;
+	border-image-slice: 22 35 26 75 fill;
+	border-image-width: 10px 10px 10px 10px;
+	border-image-outset: 0 0 0 0;
+	border-image-repeat: round stretch;
+	border-image-source: url(/mark.88436f50.png);
+	color: inherit;
+}
+date {
+	font-size: 12px;
+}
+#tags {
+	list-style: none;
+	display: block;
+	margin: 1.5em 0;
+	padding: 0;
+	text-transform: lowercase;
+	font-size: 12px;
+}
+#tags li {
+	display: inline;
+	margin-right: 1em;
+}
+#tags a {
+	color: #aaa;
+	line-height: 1;
+}
+#tags a:before {
+	content: "#"
+}
+blockquote {
+	margin: 0;
+}
+blockquote p {
+	margin: 0;
+}
+
+/* Notes */
+notes {
+	margin: 0 0 3em 0;
+	display: block;
+}
+notes li {
+	list-style: none;
+}
+	
+/* Syntax */
+pre {
+	margin: 0;
+}
+.highlight {
+	background: #eee;
+	margin: 2rem 0;
+	overflow: auto;
+	padding: 10px;
+}
+
+/* Movies */	
+movies li {
+	list-style: none;
+}
+movies date {
+	color: #aaa;
+	font-size: 12px;
+	display: block;
+	margin: 3px 0 1.5em;
+	line-height: 1;
+}
+.star {
+	width: 13px;
+	height: 12px;
+	display: inline-block;
+	background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTYuMzA5IDkuMjJMMi40MDkgMTJsMS40NC00LjU2N0wwIDQuNTgzbDQuNzg4LS4wNDJMNi4zMDggMCA3LjgzIDQuNTRsNC43ODkuMDQ0LTMuODUgMi44NDlMMTAuMjA5IDEyeiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+);
+}
+
+/* TV */
+tv li {
+	list-style: none;
+}
+season {
+	font-size: 11px;
+	color: #aaa;
+	margin: 0 10px 0 0;
+}
+	
+/* Photos */
+.projects {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	list-style: none;
+	grid-column-gap: 5rem;
+	grid-row-gap: 2rem;
+	padding: 0;
+}
+.projects img {
+	width: 100%;
+	margin: 10px 0 0 0;
+	border-radius: 2px;
+}
+year {
+	display: block;
+	color: #aaa;
+	font-size: 10px;
+}
+
+/* Pagination */
+.pagination {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #aaa;
+	}
+.pagination li {
+	list-style: none;
+	display: inline-block;
+}
+.pagination a {
+	color: #aaa;
+	background-color: #f4f4f4;
+	padding: 3px 6px;
+	border-radius: 2px;
+	margin-right: 5px;
+}
+
+@media screen and (max-width:976px){
+	.projects {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		list-style: none;
+		grid-column-gap: 1.5rem;
+		grid-row-gap: 2rem;
+		padding: 0;
+}
+	body {
+		padding: 2em 1.5em;
+}
+}
+</style>
+<body>
+<main>
+	
+<header>
+<a href="/" class="logo">jwboelens.org</a><a class="nav" href="/">/photos</a>
+</header>
+	
+<photos>
+  {{ .Content }}
+</photos>
+	
+<footer>
+</footer>
+	
+</main>
+</body>
+
+</html>
