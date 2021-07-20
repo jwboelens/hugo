@@ -5,9 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <link rel=icon href=data:,>
 <style>
-@import url('https://rsms.me/inter/inter.css');
 body {
-	font-family: 'Inter', sans-serif;
 	font-size: 15px;
 	line-height: 1.6;
 	max-width: 64em;
@@ -64,13 +62,15 @@ div.archive > div img {
 <header>
 <a href="/" class="logo">jwboelens.org</a><a class="nav" href="/">/photos</a>
 </header>
-	
+
+<div>	
 <div class="archive">
   {{ range (.Data.Pages.ByParam "year") }}
   <div>
     <a href="{{ .Permalink }}">{{ with .Params.thumbnail }}<img src="{{ . }}">{{ end }}</a>
   </div>
   {{ end }}
+</div>
 </div>
 	
 <footer>
